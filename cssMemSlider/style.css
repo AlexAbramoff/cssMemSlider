@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 96%;
+  height: 100%;
+  padding: 0 2%;
+  margin: 0 auto;
+}
+.header {
+  flex: 0 1 7%;
+  background-color: #000;
+}
+.title {
+  height: 100%;
+  font-size: 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  flex: 1 0 auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: rgb(139, 138, 138);
+}

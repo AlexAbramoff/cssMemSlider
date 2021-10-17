@@ -213,7 +213,7 @@ a {
   .image {
     height: 100%;
   }
-  .slider-content {
+  .slider {
     height: 50%;
   }
   .text-slider-wrapper,
@@ -227,8 +227,6 @@ a {
   .slider-controls {
     justify-content: center;
     order: 2;
-    right: 50%;
-    bottom: 34%;
     padding-left: 0%;
   }
 }

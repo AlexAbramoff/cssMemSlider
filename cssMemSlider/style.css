@@ -234,11 +234,15 @@ a {
   .slide-text {
     font-size: 1rem;
   }
+  .slider-wrapper {
+    align-items: center;
+  }
   .slider-wrapper label span {
     width: 0.5rem;
     height: 0.5rem;
   }
   .slider {
+    order: 1;
     height: 50%;
   }
   .slider-wrapper label {
@@ -251,10 +255,10 @@ a {
     width: 1.5rem;
   }
   .title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .date {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .github-link {
     padding-left: 3rem;
